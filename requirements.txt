@@ -1,0 +1,19 @@
+# Core
+langchain>=0.2
+openai>=1.0
+qdrant-client>=1.7
+tqdm
+pypdf
+streamlit>=1.20
+python-dotenv
+numpy
+faiss-cpu
+# optional: for nicer PDF handling
+pdfminer.six
+# Optional local embedding fallback (install if you want to avoid OpenAI costs)
+# For CPU-only machines:
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
+# pip install sentence-transformers
+# If you have CUDA, install the appropriate torch wheel from https://pytorch.org
+# You can also add the package to your env explicitly:
+# sentence-transformers
